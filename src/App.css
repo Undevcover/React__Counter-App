@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-top: 10%;
+    font-family: 'Overlock', cursive;
+}
+
+.counter-container {
+    background-color: #FF6E31;
+    height: 500px;
+    width: 500px;
+    border: solid 2px #AD8E70;
+    border-radius: 15px;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.counter {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.counter-head h1 {
+    color: #FFEBB7;
+    font-weight: 900;
+    text-align: center;
+    
+}
+
+.btn {
+    background-color: transparent;
+    border: 0;
+    height: 20px;
+    width: 10px;
+}
+
+.count {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    margin: 10%;
+}
+.count h1{
+    font-size: 150px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 150px;
+    padding: 10px;
+}
+.operation {
+    height: 100%;
+    width: 50px;
+    margin: 10px;
+    color: #FCE22A;
+    border-radius: 50%;
+
+}
